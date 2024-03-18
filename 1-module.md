@@ -17,6 +17,7 @@ Azure Connected Machine OnboardingOnboard machines ==> Onboard machines
 
 * Azure Connected Machine Resource Administrator ==> Read, modify, and delete a machine
 
+# Use cases 
 One scenario was for a customer using Log Analytics only to add the Update Management solution.
 
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/364669iDC6E5B734773542A/image-size/medium?v=v2&px=400)
@@ -30,3 +31,5 @@ He also stated “We also have a customer with 800 servers using the Update Mana
 2. that resource has a unique Resource ID property. It belongs to a resource group inside a subscription, and it can benefit from Azure Resource Manager-based mechanisms such as Azure Policy and tags.
 3. After you install the agent, it requires outbound connectivity to Azure Arc over Transmission Control Protocol (TCP) port 443
 
+# Private Connection 
+![](https://learn.microsoft.com/en-us/azure/azure-arc/servers/media/private-link-security/private-link-topology.png)
