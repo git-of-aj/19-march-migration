@@ -16,6 +16,16 @@ Azure Arc expands the support for Azure Resource Manager to resources running ou
 Azure Connected Machine OnboardingOnboard machines ==> Onboard machines
 
 * Azure Connected Machine Resource Administrator ==> Read, modify, and delete a machine
+
+One scenario was for a customer using Log Analytics only to add the Update Management solution.
+
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/364669iDC6E5B734773542A/image-size/medium?v=v2&px=400)
+
+ $42.09 was the total monthly cost for this customer with 205 servers to make sure all servers we patched and up to date.
+
+ 
+
+He also stated “We also have a customer with 800 servers using the Update Management solution but in that customer the costs are absorbed in their single-Sentinel-connected workspace.
 **In larger environments, you can use the remote PowerShell scripting or a service principal l to perform the installation and registration in an unattended manner. Alternatively, you can automate the deployment using Configuration Manager or Group Policy.**
 2. that resource has a unique Resource ID property. It belongs to a resource group inside a subscription, and it can benefit from Azure Resource Manager-based mechanisms such as Azure Policy and tags.
 3. After you install the agent, it requires outbound connectivity to Azure Arc over Transmission Control Protocol (TCP) port 443
