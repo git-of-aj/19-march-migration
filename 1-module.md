@@ -9,6 +9,7 @@ Azure Arc expands the support for Azure Resource Manager to resources running ou
 > [source - MS Docs](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview)
 
 # Steps 
+0. [Check if supported OS](https://learn.microsoft.com/en-us/azure/azure-arc/servers/prerequisites#supported-operating-systems)
 1. Download -  Azure Connected Machine agent for SMALL SCALE - generate and run script in Azuer portal
 - CAN ONBOARD Linux machines hosted on-premises or with another cloud provider
 - Requires Permission - 
